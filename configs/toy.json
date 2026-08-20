@@ -1,0 +1,26 @@
+{
+  "data_root": "data_toy",
+  "output_root": "output_toy",
+  "windows_json": "windows.json",
+  "thresholds": {
+    "M_min": 90,
+    "E_min": 40,
+    "V_min_src": 15,
+    "V_min_dst": 15
+  },
+  "training": {
+    "epochs": 20,
+    "lr": 0.005,
+    "weight_decay": 1e-5,
+    "gamma": 2.0,
+    "use_pe": false,
+    "use_ief": true,
+    "lambda_deg": 0.5,
+    "lambda_pr": 0.3,
+    "fusion_alpha": 0.60,
+    "fusion_beta": 0.0,
+    "fusion_delta": 0.40
+  },
+  "seeds": [42],
+  "pivots": ["C5"]
+}

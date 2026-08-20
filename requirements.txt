@@ -1,0 +1,8 @@
+# Core algorithm
+numpy>=1.21
+scipy>=1.7
+torch>=2.0
+
+# Data pipeline
+pyarrow>=10.0
+tqdm>=4.60

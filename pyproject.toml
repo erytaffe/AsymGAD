@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "asymgad"
+version = "1.1.0"
+description = "Label-free lateral-movement pivot ranking via asymmetric graph anomaly detection"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "numpy>=1.21",
+    "scipy>=1.7",
+    "torch>=2.0",
+    "pyarrow>=10.0",
+    "tqdm>=4.60",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

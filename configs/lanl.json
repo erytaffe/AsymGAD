@@ -1,0 +1,26 @@
+{
+  "data_root": "data",
+  "output_root": "output",
+  "windows_json": "windows.json",
+  "thresholds": {
+    "M_min": 2000000,
+    "E_min": 50000,
+    "V_min_src": 5000,
+    "V_min_dst": 3000
+  },
+  "training": {
+    "epochs": 100,
+    "lr": 0.005,
+    "weight_decay": 1e-5,
+    "gamma": 2.0,
+    "use_pe": false,
+    "use_ief": true,
+    "lambda_deg": 0.5,
+    "lambda_pr": 0.3,
+    "fusion_alpha": 0.60,
+    "fusion_beta": 0.0,
+    "fusion_delta": 0.40
+  },
+  "seeds": [42, 123, 456],
+  "pivots": ["C17693", "C19932", "C22409", "C18025"]
+}
